@@ -1,6 +1,6 @@
 ﻿namespace Gestione_Posti_Auto_Scuola_2
 {
-    class PersonaleATA : PersonaleGenerico
+    class Personale : Persona
     {
         private int IDunivoco; //>=1000
 
@@ -9,12 +9,16 @@
             get { return IDunivoco; }
             set { IDunivoco = value; }
         }
-        public PersonaleATA() : base()
-        { IDunivoco = 0; }
+        public Personale() : base()
+        { 
+            IDunivoco = 0; 
+        }
 
-        public PersonaleATA(string nm, string cg, int id) : base(nm, cg)
-        { IDunivoco = id; }
+        public Personale(string nm, string cg, int id) : base(nm, cg)
+        { 
+            IDunivoco = id; 
+        }
 
-        ~PersonaleATA() {; }
+        ~Personale() {;}
     }
 }

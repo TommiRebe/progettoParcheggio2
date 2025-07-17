@@ -1,0 +1,21 @@
+C:\prova\progettoParcheggio2\Gestione Posti Auto Scuola 2\bin\Debug\net9.0-windows\Gestione Posti Auto Scuola 2.exe
+C:\prova\progettoParcheggio2\Gestione Posti Auto Scuola 2\bin\Debug\net9.0-windows\Gestione Posti Auto Scuola 2.deps.json
+C:\prova\progettoParcheggio2\Gestione Posti Auto Scuola 2\bin\Debug\net9.0-windows\Gestione Posti Auto Scuola 2.runtimeconfig.json
+C:\prova\progettoParcheggio2\Gestione Posti Auto Scuola 2\bin\Debug\net9.0-windows\Gestione Posti Auto Scuola 2.dll
+C:\prova\progettoParcheggio2\Gestione Posti Auto Scuola 2\bin\Debug\net9.0-windows\Gestione Posti Auto Scuola 2.pdb
+C:\prova\progettoParcheggio2\Gestione Posti Auto Scuola 2\obj\Debug\net9.0-windows\Gestione_Posti_Auto_Scuola_2.frmMain.resources
+C:\prova\progettoParcheggio2\Gestione Posti Auto Scuola 2\obj\Debug\net9.0-windows\Gestione_Posti_Auto_Scuola_2.frmGrafico.resources
+C:\prova\progettoParcheggio2\Gestione Posti Auto Scuola 2\obj\Debug\net9.0-windows\Gestione_Posti_Auto_Scuola_2.frmLibera.resources
+C:\prova\progettoParcheggio2\Gestione Posti Auto Scuola 2\obj\Debug\net9.0-windows\Gestione_Posti_Auto_Scuola_2.frmLogIn.resources
+C:\prova\progettoParcheggio2\Gestione Posti Auto Scuola 2\obj\Debug\net9.0-windows\Gestione_Posti_Auto_Scuola_2.frmOccupa.resources
+C:\prova\progettoParcheggio2\Gestione Posti Auto Scuola 2\obj\Debug\net9.0-windows\Gestione Posti Auto Scuola 2.csproj.GenerateResource.cache
+C:\prova\progettoParcheggio2\Gestione Posti Auto Scuola 2\obj\Debug\net9.0-windows\Gestione Posti Auto Scuola 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\prova\progettoParcheggio2\Gestione Posti Auto Scuola 2\obj\Debug\net9.0-windows\Gestione Posti Auto Scuola 2.AssemblyInfoInputs.cache
+C:\prova\progettoParcheggio2\Gestione Posti Auto Scuola 2\obj\Debug\net9.0-windows\Gestione Posti Auto Scuola 2.AssemblyInfo.cs
+C:\prova\progettoParcheggio2\Gestione Posti Auto Scuola 2\obj\Debug\net9.0-windows\Gestione Posti Auto Scuola 2.csproj.CoreCompileInputs.cache
+C:\prova\progettoParcheggio2\Gestione Posti Auto Scuola 2\obj\Debug\net9.0-windows\Gestione Posti Auto Scuola 2.sourcelink.json
+C:\prova\progettoParcheggio2\Gestione Posti Auto Scuola 2\obj\Debug\net9.0-windows\Gestione Posti Auto Scuola 2.dll
+C:\prova\progettoParcheggio2\Gestione Posti Auto Scuola 2\obj\Debug\net9.0-windows\refint\Gestione Posti Auto Scuola 2.dll
+C:\prova\progettoParcheggio2\Gestione Posti Auto Scuola 2\obj\Debug\net9.0-windows\Gestione Posti Auto Scuola 2.pdb
+C:\prova\progettoParcheggio2\Gestione Posti Auto Scuola 2\obj\Debug\net9.0-windows\Gestione Posti Auto Scuola 2.genruntimeconfig.cache
+C:\prova\progettoParcheggio2\Gestione Posti Auto Scuola 2\obj\Debug\net9.0-windows\ref\Gestione Posti Auto Scuola 2.dll

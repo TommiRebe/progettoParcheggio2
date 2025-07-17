@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Gestione Posti Auto Scuola 2/1.0.0": {
+        "runtime": {
+          "Gestione Posti Auto Scuola 2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Gestione Posti Auto Scuola 2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

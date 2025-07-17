@@ -48,6 +48,6 @@
             StatoDiOccupazione = sdo;
             Occupante = oc;
         }
-        ~PostoAuto() {; }
+        ~PostoAuto() {;}
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Gestione_Posti_Auto_Scuola_2
 {
-    abstract class PersonaleGenerico
+    abstract class Persona
     {
         protected string nome;
         protected string cognome;
@@ -16,12 +16,12 @@
             set { cognome = value; }
         }
 
-        public PersonaleGenerico() { nome = ""; cognome = ""; }
-        public PersonaleGenerico(string nm, string cg)
+        public Persona() { nome = ""; cognome = ""; }
+        public Persona(string nm, string cg)
         {
             nome = nm;
             cognome = cg;
         }
-        ~PersonaleGenerico() {; }
+        ~Persona() {;}
     }
 }
