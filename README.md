@@ -3,7 +3,7 @@
 1. login 
 2. home
 3. classi
-4. grafico occupanza
+4. grafico occupazione
 5. occupa
 6. libera
 7. file
