@@ -1,6 +1,6 @@
 # progettoParcheggio2
 
-1. login 
+1. login ✔
 2. home
 3. classi
 4. grafico occupazione

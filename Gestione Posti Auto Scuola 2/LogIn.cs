@@ -26,6 +26,7 @@ namespace Gestione_Posti_Auto_Scuola_2
         private void frmLogIn_Load(object sender, EventArgs e)
         {
             this.BackColor = Color.LightBlue;
+            lblregistrati.Text = "Non hai ancora un account?\nRegistrati!";
             pct1.Image = Image.FromFile("C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Image\\fotologin.png");
             pct1.SizeMode = PictureBoxSizeMode.Zoom;
             pctUser.Image = Image.FromFile("C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Image\\user.png");
@@ -34,19 +35,20 @@ namespace Gestione_Posti_Auto_Scuola_2
             pctPass.SizeMode = PictureBoxSizeMode.Zoom;
             txtUser.BorderStyle = BorderStyle.None;
             btnLogin.BackColor = Color.FromArgb(0, 123, 255);
-            btnLogin.ForeColor = ColorTranslator.FromHtml("#007BFF");
+            btnLogin.ForeColor = Color.White;
+            btnRegistrati.BackColor = Color.FromArgb(0, 123, 255);
+            btnRegistrati.ForeColor = Color.White;
             txtUser.ForeColor = ColorTranslator.FromHtml("#1E90FF");
             txtUser.BackColor = ColorTranslator.FromHtml("#E6F2FF");
             txtPass.BackColor = ColorTranslator.FromHtml("#E6F2FF");
             txtPass.ForeColor = ColorTranslator.FromHtml("#1E90FF");
-
 
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
             string record = txtUser.Text + txtPass.Text;
-            if(G.CercaUtente(G.name, G.path, record) == true)
+            if (G.CercaUtente(G.name, G.path, record) == true)
             {
                 MessageBox.Show("Login effettuato con successo!");
             }
@@ -54,6 +56,19 @@ namespace Gestione_Posti_Auto_Scuola_2
             {
                 MessageBox.Show("Credenziali errate!");
             }
+        }
+
+        private void btnRegistrati_Click(object sender, EventArgs e)
+        {
+            if (G.filecreato == false)
+            {
+                G.CreaFile(G.path, G.name);
+                G.filecreato = true;
+
+            }
+            Registrati registrati = new Registrati();
+            registrati.Show();
+            this.Hide();
         }
     }
 }

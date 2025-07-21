@@ -19,3 +19,4 @@ C:\prova\progettoParcheggio2\Gestione Posti Auto Scuola 2\obj\Debug\net9.0-windo
 C:\prova\progettoParcheggio2\Gestione Posti Auto Scuola 2\obj\Debug\net9.0-windows\Gestione Posti Auto Scuola 2.pdb
 C:\prova\progettoParcheggio2\Gestione Posti Auto Scuola 2\obj\Debug\net9.0-windows\Gestione Posti Auto Scuola 2.genruntimeconfig.cache
 C:\prova\progettoParcheggio2\Gestione Posti Auto Scuola 2\obj\Debug\net9.0-windows\ref\Gestione Posti Auto Scuola 2.dll
+C:\Prova\progettoParcheggio2\Gestione Posti Auto Scuola 2\obj\Debug\net9.0-windows\Gestione_Posti_Auto_Scuola_2.Registrati.resources
