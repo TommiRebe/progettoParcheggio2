@@ -13,7 +13,12 @@ namespace Gestione_Posti_Auto_Scuola_2
         const string TIT = "Gestione parcheggio";
         public frmMain()
         {
+            frmLogIn Log = new frmLogIn();
+
             InitializeComponent();
+
+            Log.Show();
+            this.Hide();
 
             lblTitolo.Text = TIT;
         }

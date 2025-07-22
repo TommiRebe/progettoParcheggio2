@@ -38,8 +38,6 @@ namespace Gestione_Posti_Auto_Scuola_2
             btnLogin.ForeColor = Color.White;
             btnRegistrati.BackColor = Color.FromArgb(0, 123, 255);
             btnRegistrati.ForeColor = Color.White;
-            btnRitorna.BackColor = Color.FromArgb(0, 123, 255);
-            btnRitorna.ForeColor = Color.White;
             txtUser.ForeColor = ColorTranslator.FromHtml("#1E90FF");
             txtUser.BackColor = ColorTranslator.FromHtml("#E6F2FF");
             txtPass.BackColor = ColorTranslator.FromHtml("#E6F2FF");
@@ -49,10 +47,14 @@ namespace Gestione_Posti_Auto_Scuola_2
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            frmMain frmMain = new frmMain();
+            
             string record = txtUser.Text + txtPass.Text;
             if (G.CercaUtente(G.name, G.path, record) == true)
             {
                 MessageBox.Show("Login effettuato con successo!");
+                frmMain.Show();
+                this.Hide();
             }
             else
             {
@@ -70,13 +72,6 @@ namespace Gestione_Posti_Auto_Scuola_2
             }
             Registrati registrati = new Registrati();
             registrati.Show();
-            this.Hide();
-        }
-
-        private void btnRitorna_Click(object sender, EventArgs e)
-        {
-            frmMain frmMain = new frmMain();
-            frmMain.Show();
             this.Hide();
         }
     }

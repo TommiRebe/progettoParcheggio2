@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Lib;
 
 namespace Gestione_Posti_Auto_Scuola_2
 {
@@ -23,6 +24,14 @@ namespace Gestione_Posti_Auto_Scuola_2
         private void frmGrafico_Load(object sender, EventArgs e)
         {
 
+            //StreamReader srd = new StreamReader();
+        }
+
+        private void btnTornaHome_Click(object sender, EventArgs e)
+        {
+            frmMain frmMain = new frmMain();
+            frmMain.Show();
+            this.Hide();
         }
     }
 }
