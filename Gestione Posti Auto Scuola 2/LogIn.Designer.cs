@@ -36,6 +36,7 @@
             pctPass = new PictureBox();
             lblregistrati = new Label();
             btnRegistrati = new Button();
+            btnRitorna = new Button();
             ((System.ComponentModel.ISupportInitialize)pct1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pctUser).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pctPass).BeginInit();
@@ -78,7 +79,7 @@
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(312, 48);
             btnLogin.TabIndex = 4;
-            btnLogin.Text = "LOGIN";
+            btnLogin.Text = "Login";
             btnLogin.UseVisualStyleBackColor = true;
             btnLogin.Click += btnLogin_Click;
             // 
@@ -116,15 +117,27 @@
             btnRegistrati.Name = "btnRegistrati";
             btnRegistrati.Size = new Size(312, 48);
             btnRegistrati.TabIndex = 8;
-            btnRegistrati.Text = "REGISTRATI!";
+            btnRegistrati.Text = "Registrati";
             btnRegistrati.UseVisualStyleBackColor = true;
             btnRegistrati.Click += btnRegistrati_Click;
+            // 
+            // btnRitorna
+            // 
+            btnRitorna.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnRitorna.Location = new Point(150, 675);
+            btnRitorna.Name = "btnRitorna";
+            btnRitorna.Size = new Size(312, 48);
+            btnRitorna.TabIndex = 9;
+            btnRitorna.Text = "Home";
+            btnRitorna.UseVisualStyleBackColor = true;
+            btnRitorna.Click += btnRitorna_Click;
             // 
             // frmLogIn
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(640, 670);
+            ClientSize = new Size(640, 747);
+            Controls.Add(btnRitorna);
             Controls.Add(btnRegistrati);
             Controls.Add(lblregistrati);
             Controls.Add(pctPass);
@@ -154,5 +167,6 @@
         private PictureBox pctPass;
         private Label lblregistrati;
         private Button btnRegistrati;
+        private Button btnRitorna;
     }
 }

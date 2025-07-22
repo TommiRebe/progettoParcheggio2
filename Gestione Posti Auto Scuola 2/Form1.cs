@@ -20,7 +20,11 @@ namespace Gestione_Posti_Auto_Scuola_2
 
         private void frmMain_Load(object sender, EventArgs e)
         {
-
+            this.BackColor = Color.LightBlue;
+            btnEsegui.BackColor = Color.FromArgb(0, 123, 255);
+            btnEsegui.ForeColor = Color.White;
+            btnLogOut.BackColor = Color.FromArgb(0, 123, 255);
+            btnLogOut.ForeColor = Color.White;
         }
 
         private void btnEsegui_Click(object sender, EventArgs e)
