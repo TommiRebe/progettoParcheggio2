@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gestione Posti Auto Scuola 2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb32d351665630b234271b1cfc7d354cc985e230")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8eae3db05658eaa715c5f33e6cf6ad6b1150d5e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gestione Posti Auto Scuola 2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gestione Posti Auto Scuola 2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|c:\\prova\\progettoparcheggio2\\gestione posti auto scuola 2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -139,8 +139,7 @@
               "RelativeToolTip": "PersonaleAt.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T08:23:06.331Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T08:23:06.331Z"
             },
             {
               "$type": "Document",
@@ -152,8 +151,7 @@
               "RelativeToolTip": "Posto Auto.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAcwDIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T08:22:50.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T08:22:50.048Z"
             },
             {
               "$type": "Document",
@@ -165,8 +163,7 @@
               "RelativeToolTip": "Personale Generico.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAgwBgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T08:22:38.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T08:22:38.276Z"
             },
             {
               "$type": "Document",
@@ -176,9 +173,8 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T08:21:51.28Z",
-              "EditorCaption": " [Design]"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-07-16T08:21:51.28Z"
             },
             {
               "$type": "Document",
@@ -188,9 +184,8 @@
               "RelativeDocumentMoniker": "Grafico.cs",
               "ToolTip": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Grafico.cs [Design]",
               "RelativeToolTip": "Grafico.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T16:17:03.533Z",
-              "EditorCaption": " [Design]"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-07-17T16:17:03.533Z"
             },
             {
               "$type": "Document",
@@ -200,9 +195,8 @@
               "RelativeDocumentMoniker": "Occupa.cs",
               "ToolTip": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Occupa.cs [Design]",
               "RelativeToolTip": "Occupa.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T16:17:47.843Z",
-              "EditorCaption": " [Design]"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-07-17T16:17:47.843Z"
             },
             {
               "$type": "Document",
@@ -212,9 +206,8 @@
               "RelativeDocumentMoniker": "Libera.cs",
               "ToolTip": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Libera.cs [Design]",
               "RelativeToolTip": "Libera.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T16:18:16.536Z",
-              "EditorCaption": " [Design]"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-07-17T16:18:16.536Z"
             },
             {
               "$type": "Document",
