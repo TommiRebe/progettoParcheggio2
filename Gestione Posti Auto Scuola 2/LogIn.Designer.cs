@@ -80,7 +80,7 @@
             btnLogin.Location = new Point(131, 350);
             btnLogin.Margin = new Padding(3, 2, 3, 2);
             btnLogin.Name = "btnLogin";
-            btnLogin.Size = new Size(273, 36);
+            btnLogin.Size = new Size(311, 44);
             btnLogin.TabIndex = 4;
             btnLogin.Text = "Login";
             btnLogin.UseVisualStyleBackColor = true;
@@ -121,7 +121,7 @@
             btnRegistrati.Location = new Point(131, 451);
             btnRegistrati.Margin = new Padding(3, 2, 3, 2);
             btnRegistrati.Name = "btnRegistrati";
-            btnRegistrati.Size = new Size(273, 36);
+            btnRegistrati.Size = new Size(311, 41);
             btnRegistrati.TabIndex = 8;
             btnRegistrati.Text = "Registrati";
             btnRegistrati.UseVisualStyleBackColor = true;

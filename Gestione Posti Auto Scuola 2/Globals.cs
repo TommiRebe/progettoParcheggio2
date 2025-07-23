@@ -8,7 +8,12 @@ namespace Gestione_Posti_Auto_Scuola_2
     {
         public static string path = @"./../../../../../";
         public static string name = "Credenziali.txt";
+        public static string pathPosti = @"./../../../../../";
+        public static string namePosti = "Posti.txt";
         public static bool filecreato = false;
+        public static bool entraLog = false;
+        public static int id = 1;
+        public static string record = "";
 
         public static void CreaFile(string p, string n)
         {

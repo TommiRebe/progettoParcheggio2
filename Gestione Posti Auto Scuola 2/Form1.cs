@@ -6,25 +6,31 @@
  * 
  */
 
+using Microsoft.VisualBasic.Logging;
+
 namespace Gestione_Posti_Auto_Scuola_2
 {
     public partial class frmMain : Form
     {
         const string TIT = "Gestione parcheggio";
+
+        
         public frmMain()
         {
-            frmLogIn Log = new frmLogIn();
-
-            InitializeComponent();
-
-            Log.Show();
-            this.Hide();
+            InitializeComponent();   
 
             lblTitolo.Text = TIT;
         }
 
         private void frmMain_Load(object sender, EventArgs e)
         {
+            if (G.entraLog == false)
+            {
+                frmLogIn Log = new frmLogIn();
+                Log.Show();
+                this.Close();
+            }
+
             this.BackColor = Color.LightBlue;
             btnEsegui.BackColor = Color.FromArgb(0, 123, 255);
             btnEsegui.ForeColor = Color.White;
@@ -52,7 +58,6 @@ namespace Gestione_Posti_Auto_Scuola_2
         private void btnLogOut_Click(object sender, EventArgs e)
         {
             frmLogIn formLog = new frmLogIn();
-
             formLog.Show();
             this.Hide();
         }
