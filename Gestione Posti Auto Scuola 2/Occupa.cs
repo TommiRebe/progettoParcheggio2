@@ -27,5 +27,12 @@ namespace Gestione_Posti_Auto_Scuola_2
         {
 
         }
+
+        private void btnOccupa_Click(object sender, EventArgs e)
+        {
+            G.AggiungiUtente(G.pathPosti, G.namePosti, G.id + $"{}{}");
+            MessageBox.Show("Utente registrato correttamente!");
+            G.id++;
+        }
     }
 }

@@ -23,8 +23,36 @@ namespace Gestione_Posti_Auto_Scuola_2
 
         private void frmGrafico_Load(object sender, EventArgs e)
         {
+            string post = "";
 
-            //StreamReader srd = new StreamReader();
+            StreamReader srd = new StreamReader(G.path + G.name);
+
+            while (!srd.EndOfStream)
+            {
+                for(int i=0; i<4; i++)
+                    for (int y = 0; y < 9; y++)
+                    {
+                        switch (i)
+                        {
+                            case 0:
+                                post = $"A{y}";
+                                break;
+                            case 1:
+                                post = $"B{y}";
+                                break;
+                            case 2:
+                                post = $"C{y}";
+                                break;
+                            case 3:
+                                post = $"D{y}";
+                                break;
+                            default:
+                                break;
+                        }
+                        G.CercaUtente(G.namePosti, G.pathPosti, post);
+                    }
+                
+            }
         }
 
         private void btnTornaHome_Click(object sender, EventArgs e)
