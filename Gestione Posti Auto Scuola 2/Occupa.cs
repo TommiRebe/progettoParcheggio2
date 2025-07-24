@@ -25,12 +25,17 @@ namespace Gestione_Posti_Auto_Scuola_2
 
         private void frmOccupa_Load(object sender, EventArgs e)
         {
-
+            foreach(string fila in G.File)
+                cmbFila.Items.Add(fila);
+            foreach (int numero in G.Numeri)
+                cmbNumero.Items.Add(numero);
         }
 
         private void btnOccupa_Click(object sender, EventArgs e)
         {
-            G.AggiungiUtente(G.pathPosti, G.namePosti, G.id + $"{}{}");
+            G.AggiungiUtente(G.pathPosti, G.namePosti, G.id + $"{cmbFila.SelectedItem}{cmbNumero.SelectedItem}");
+
+            G.id++;
             MessageBox.Show("Utente registrato correttamente!");
             G.id++;
         }

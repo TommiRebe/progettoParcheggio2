@@ -25,13 +25,7 @@ namespace Gestione_Posti_Auto_Scuola_2
 
         private void frmLogIn_Load(object sender, EventArgs e)
         {
-            if (G.entraLog == false)
-            {
-                frmMain menu = new frmMain();
-                menu.Close();
-                G.entraLog = true;
-            }
-
+            G.CreaFile(G.pathPosti, G.namePosti);
             this.BackColor = Color.LightBlue;
             lblregistrati.Text = "Non hai ancora un account?\nRegistrati!";
             pct1.Image = Image.FromFile("C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Image\\fotologin.png");
