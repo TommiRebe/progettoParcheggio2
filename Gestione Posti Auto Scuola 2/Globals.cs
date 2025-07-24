@@ -8,8 +8,6 @@ namespace Gestione_Posti_Auto_Scuola_2
     {
         public static string path = @"./../../../../../";
         public static string name = "Credenziali.txt";
-        public static string pathPosti = @"./../../../../../";
-        public static string namePosti = "Posti.txt";
         public static bool filecreato = false;
         public static int id = 1;
         public static string record = "";
@@ -26,10 +24,10 @@ namespace Gestione_Posti_Auto_Scuola_2
             Files.InserisciRecord(p, n, r);
         }
 
-        public static bool CercaUtente(string n, string p, string r)
+        public static bool CercaUtente(string n, string p, string user, string pass)
         {
             string record = "";
-            char sep = ';';
+            char sep = ' ';
             string[] records;
 
             using (StreamReader srd = new StreamReader(p + n))
@@ -40,15 +38,31 @@ namespace Gestione_Posti_Auto_Scuola_2
                     records = Str.Tokenizer(record, sep);
 
                     if (records != null)
-                    {
-                        for (int i = 0; i < records.Length; i++)
-                        {
-                            if (records[i] != null && records[i] == r)
-                            {
-                                return true;
-                            }
-                        }
-                    }
+
+                        if (records[0] == user && records[1] == pass)
+                            return true;
+                }
+            }
+
+            return false;
+        }
+
+        public static bool CercaPosto(string n, string p, string posto)
+        {
+            string record = "";
+            char sep = ' ';
+            string[] records;
+
+            using (StreamReader srd = new StreamReader(p + n))
+            {
+                while (!srd.EndOfStream)
+                {
+                    record = srd.ReadLine();
+                    records = Str.Tokenizer(record, sep);
+
+                    if (records != null)
+                        if (records[2] == posto)
+                            return true;
                 }
             }
 

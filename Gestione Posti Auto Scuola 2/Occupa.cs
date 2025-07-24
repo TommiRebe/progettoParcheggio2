@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Lib;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -33,11 +34,24 @@ namespace Gestione_Posti_Auto_Scuola_2
 
         private void btnOccupa_Click(object sender, EventArgs e)
         {
-            G.AggiungiUtente(G.pathPosti, G.namePosti, G.id + $"{cmbFila.SelectedItem}{cmbNumero.SelectedItem}");
+            StreamReader srd = new StreamReader(G.path + G.name);
+            string[] records;
+            string vecchio = "";
 
-            G.id++;
-            MessageBox.Show("Utente registrato correttamente!");
-            G.id++;
+            vecchio = G.record;
+
+            while (!srd.EndOfStream)
+            {
+                records = Str.Tokenizer(srd.ReadLine(), ' ');
+
+                if (records.Length == 2)
+                {
+                    G.record = G.record + ' ' + cmbFila.SelectedItem + cmbNumero.SelectedItem;
+                    Files.ModificaRecord(G.path, G.name, vecchio, G.record);
+                }
+            }
+
+            
         }
     }
 }

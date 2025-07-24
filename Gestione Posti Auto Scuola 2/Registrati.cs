@@ -46,7 +46,7 @@ namespace Gestione_Posti_Auto_Scuola_2
 
         private void btnRegistrati_Click(object sender, EventArgs e)
         {
-            G.record = txtUser.Text + txtPass.Text;
+            G.record = txtUser.Text + ' ' + txtPass.Text;
 
             G.AggiungiUtente(G.path, G.name, G.record);
             MessageBox.Show("Utente registrato correttamente!");

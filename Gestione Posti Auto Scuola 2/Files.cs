@@ -120,7 +120,7 @@ namespace Lib
         // il percorso del file e il suo nome sono specificati come parametri
         public static void CreaFile(string p, string n)
         {
-            bool append = false; // con append = true aggiungo al file già esistente (in coda)
+            bool append = true; // con append = true aggiungo al file già esistente (in coda)
                                 // con append = false elimino il file già esistente
                                 // o lo creo nel caso non ci sia
             StreamWriter swr = new StreamWriter(p + n, append); // per creare un file si usa StremWriter
@@ -162,6 +162,12 @@ namespace Lib
             }
 
             return nr;
+        }
+
+        public static void ModificaRecord(string p, string n, string de, string dm)
+        {
+            CancellaRecord(p, n, de);
+            InserisciRecord(p, n, dm);
         }
     }
 }
