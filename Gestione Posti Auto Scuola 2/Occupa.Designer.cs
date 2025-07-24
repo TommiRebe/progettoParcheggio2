@@ -34,6 +34,7 @@
             imgOccupa = new PictureBox();
             lblFila = new Label();
             lblPosti = new Label();
+            btnHome = new Button();
             ((System.ComponentModel.ISupportInitialize)imgOccupa).BeginInit();
             SuspendLayout();
             // 
@@ -91,11 +92,22 @@
             lblPosti.TabIndex = 5;
             lblPosti.Text = "Posto";
             // 
+            // btnHome
+            // 
+            btnHome.Location = new Point(50, 355);
+            btnHome.Name = "btnHome";
+            btnHome.Size = new Size(286, 44);
+            btnHome.TabIndex = 6;
+            btnHome.Text = "Home";
+            btnHome.UseVisualStyleBackColor = true;
+            btnHome.Click += btnHome_Click;
+            // 
             // frmOccupa
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(384, 361);
+            ClientSize = new Size(384, 405);
+            Controls.Add(btnHome);
             Controls.Add(lblPosti);
             Controls.Add(lblFila);
             Controls.Add(imgOccupa);
@@ -118,5 +130,6 @@
         private PictureBox imgOccupa;
         private Label lblFila;
         private Label lblPosti;
+        private Button btnHome;
     }
 }

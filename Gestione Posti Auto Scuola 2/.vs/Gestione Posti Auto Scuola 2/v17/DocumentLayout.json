@@ -1,29 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\",
+  "WorkspaceRootPath": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\",
   "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|c:\\prova\\progettoparcheggio2\\gestione posti auto scuola 2\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
     {
       "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|c:\\prova\\progettoparcheggio2\\gestione posti auto scuola 2\\occupa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:occupa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|c:\\prova\\progettoparcheggio2\\gestione posti auto scuola 2\\files.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:files.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|c:\\prova\\progettoparcheggio2\\gestione posti auto scuola 2\\str.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:str.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|c:\\prova\\progettoparcheggio2\\gestione posti auto scuola 2\\registrati.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:registrati.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\prova\\Credenziali.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|c:\\prova\\progettoparcheggio2\\gestione posti auto scuola 2\\libera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:libera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|c:\\prova\\progettoparcheggio2\\gestione posti auto scuola 2\\posto auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:posto auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|c:\\prova\\progettoparcheggio2\\gestione posti auto scuola 2\\personale generico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,48 +26,56 @@
       "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:personaleat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|c:\\prova\\progettoparcheggio2\\gestione posti auto scuola 2\\libera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:libera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\occupa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:occupa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|c:\\prova\\progettoparcheggio2\\gestione posti auto scuola 2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|c:\\prova\\progettoparcheggio2\\gestione posti auto scuola 2\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|c:\\prova\\progettoparcheggio2\\gestione posti auto scuola 2\\grafico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:grafico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\registrati.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:registrati.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|c:\\prova\\progettoparcheggio2\\gestione posti auto scuola 2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\libera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:libera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|c:\\prova\\progettoparcheggio2\\gestione posti auto scuola 2\\files.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:files.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|c:\\prova\\progettoparcheggio2\\gestione posti auto scuola 2\\posto auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:posto auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|c:\\prova\\progettoparcheggio2\\gestione posti auto scuola 2\\registrati.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:registrati.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\grafico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|c:\\prova\\progettoparcheggio2\\gestione posti auto scuola 2\\str.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:str.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\grafico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:grafico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\registrati.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:registrati.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\occupa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:occupa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|c:\\prova\\progettoparcheggio2\\gestione posti auto scuola 2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\libera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:libera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -85,187 +85,194 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Credenziali.txt",
-              "DocumentMoniker": "C:\\Prova\\Credenziali.txt",
+              "DocumentMoniker": "C:\\prova\\Credenziali.txt",
               "RelativeDocumentMoniker": "..\\..\\Credenziali.txt",
-              "ToolTip": "C:\\Prova\\Credenziali.txt",
+              "ToolTip": "C:\\prova\\Credenziali.txt",
               "RelativeToolTip": "..\\..\\Credenziali.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-07-24T10:10:36.787Z"
+              "WhenOpened": "2025-07-24T10:10:36.787Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Registrati.cs",
-              "DocumentMoniker": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Registrati.cs",
+              "DocumentMoniker": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Registrati.cs",
               "RelativeDocumentMoniker": "Registrati.cs",
-              "ToolTip": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Registrati.cs",
+              "ToolTip": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Registrati.cs",
               "RelativeToolTip": "Registrati.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowDAAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDAAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-23T11:24:41.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Str.cs",
-              "DocumentMoniker": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Str.cs",
+              "DocumentMoniker": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Str.cs",
               "RelativeDocumentMoniker": "Str.cs",
-              "ToolTip": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Str.cs",
+              "ToolTip": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Str.cs",
               "RelativeToolTip": "Str.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T17:38:31.027Z"
+              "WhenOpened": "2025-07-22T17:38:31.027Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Files.cs",
-              "DocumentMoniker": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Files.cs",
+              "DocumentMoniker": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Files.cs",
               "RelativeDocumentMoniker": "Files.cs",
-              "ToolTip": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Files.cs",
+              "ToolTip": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Files.cs",
               "RelativeToolTip": "Files.cs",
-              "ViewState": "AgIAAJsAAAAAAAAAAAAYwDQAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAIwG4AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T17:38:24.294Z"
+              "WhenOpened": "2025-07-22T17:38:24.294Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Globals.cs",
-              "DocumentMoniker": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Globals.cs",
+              "DocumentMoniker": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Globals.cs",
               "RelativeDocumentMoniker": "Globals.cs",
-              "ToolTip": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Globals.cs",
+              "ToolTip": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Globals.cs",
               "RelativeToolTip": "Globals.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAASwCIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-19T09:04:28.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "PersonaleAt.cs",
-              "DocumentMoniker": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\PersonaleAt.cs",
+              "DocumentMoniker": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\PersonaleAt.cs",
               "RelativeDocumentMoniker": "PersonaleAt.cs",
-              "ToolTip": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\PersonaleAt.cs",
+              "ToolTip": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\PersonaleAt.cs",
               "RelativeToolTip": "PersonaleAt.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T08:23:06.331Z"
+              "WhenOpened": "2025-07-16T08:23:06.331Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Personale Generico.cs",
-              "DocumentMoniker": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Personale Generico.cs",
+              "DocumentMoniker": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Personale Generico.cs",
               "RelativeDocumentMoniker": "Personale Generico.cs",
-              "ToolTip": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Personale Generico.cs",
+              "ToolTip": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Personale Generico.cs",
               "RelativeToolTip": "Personale Generico.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAQAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T08:22:38.276Z"
+              "WhenOpened": "2025-07-16T08:22:38.276Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 3,
               "Title": "Posto Auto.cs",
-              "DocumentMoniker": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Posto Auto.cs",
+              "DocumentMoniker": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Posto Auto.cs",
               "RelativeDocumentMoniker": "Posto Auto.cs",
-              "ToolTip": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Posto Auto.cs",
+              "ToolTip": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Posto Auto.cs",
               "RelativeToolTip": "Posto Auto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T08:22:50.048Z"
+              "WhenOpened": "2025-07-16T08:22:50.048Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "Libera.cs",
-              "DocumentMoniker": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Libera.cs",
+              "DocumentMoniker": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Libera.cs",
               "RelativeDocumentMoniker": "Libera.cs",
-              "ToolTip": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Libera.cs",
+              "ToolTip": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Libera.cs",
               "RelativeToolTip": "Libera.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA6wBIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwBIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T16:40:41.387Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Occupa.cs",
-              "DocumentMoniker": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Occupa.cs",
+              "DocumentMoniker": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Occupa.cs",
               "RelativeDocumentMoniker": "Occupa.cs",
-              "ToolTip": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Occupa.cs",
+              "ToolTip": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Occupa.cs",
               "RelativeToolTip": "Occupa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDAAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T16:38:32.719Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "Grafico.cs",
-              "DocumentMoniker": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Grafico.cs",
+              "DocumentMoniker": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Grafico.cs",
               "RelativeDocumentMoniker": "Grafico.cs",
-              "ToolTip": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Grafico.cs",
+              "ToolTip": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Grafico.cs",
               "RelativeToolTip": "Grafico.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAowDUAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAALUAAAAAAAAAAAAAAMMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T16:37:54.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "LogIn.cs",
-              "DocumentMoniker": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\LogIn.cs",
+              "DocumentMoniker": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\LogIn.cs",
               "RelativeDocumentMoniker": "LogIn.cs",
-              "ToolTip": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\LogIn.cs",
+              "ToolTip": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\LogIn.cs",
               "RelativeToolTip": "LogIn.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAgwDMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-22T08:24:38.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 15,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Form1.cs",
+              "DocumentMoniker": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Form1.cs",
+              "ToolTip": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowC4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T16:04:00.101Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 12,
               "Title": "Grafico.cs [Design]",
-              "DocumentMoniker": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Grafico.cs",
+              "DocumentMoniker": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Grafico.cs",
               "RelativeDocumentMoniker": "Grafico.cs",
               "ToolTip": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Grafico.cs [Design]",
               "RelativeToolTip": "Grafico.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T16:17:03.533Z"
+              "WhenOpened": "2025-07-17T16:17:03.533Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Form1.cs",
+              "DocumentMoniker": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
@@ -274,9 +281,9 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "LogIn.cs [Design]",
-              "DocumentMoniker": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\LogIn.cs",
+              "DocumentMoniker": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\LogIn.cs",
               "RelativeDocumentMoniker": "LogIn.cs",
               "ToolTip": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\LogIn.cs [Design]",
               "RelativeToolTip": "LogIn.cs [Design]",
@@ -285,36 +292,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Registrati.cs [Design]",
-              "DocumentMoniker": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Registrati.cs",
+              "DocumentMoniker": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Registrati.cs",
               "RelativeDocumentMoniker": "Registrati.cs",
               "ToolTip": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Registrati.cs [Design]",
               "RelativeToolTip": "Registrati.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T09:17:10.064Z"
+              "WhenOpened": "2025-07-21T09:17:10.064Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "Occupa.cs [Design]",
-              "DocumentMoniker": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Occupa.cs",
+              "DocumentMoniker": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Occupa.cs",
               "RelativeDocumentMoniker": "Occupa.cs",
               "ToolTip": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Occupa.cs [Design]",
               "RelativeToolTip": "Occupa.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T10:56:19.993Z"
+              "WhenOpened": "2025-07-23T10:56:19.993Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Libera.cs [Design]",
-              "DocumentMoniker": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Libera.cs",
+              "DocumentMoniker": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Libera.cs",
               "RelativeDocumentMoniker": "Libera.cs",
               "ToolTip": "C:\\prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Libera.cs [Design]",
               "RelativeToolTip": "Libera.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T10:56:24.606Z"
+              "WhenOpened": "2025-07-23T10:56:24.606Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

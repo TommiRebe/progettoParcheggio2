@@ -2,25 +2,25 @@
 {
     abstract class Persona
     {
-        protected string nome;
-        protected string cognome;
+        protected string user;
+        protected string password;
 
-        public string NOME
+        public string USER
         {
-            get { return nome; }
-            set { nome = value; }
+            get { return user; }
+            set { user = value; }
         }
-        public string COGNOME
+        public string PASSWORD
         {
-            get { return cognome; }
-            set { cognome = value; }
+            get { return password; }
+            set { password = value; }
         }
 
-        public Persona() { nome = ""; cognome = ""; }
+        public Persona() { user = ""; password = ""; }
         public Persona(string nm, string cg)
         {
-            nome = nm;
-            cognome = cg;
+            user = nm;
+            password = cg;
         }
         ~Persona() {;}
     }

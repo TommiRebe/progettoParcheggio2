@@ -193,6 +193,8 @@ namespace Gestione_Posti_Auto_Scuola_2
 
                     }
 
+                srd.Close();
+
             }
         }
 

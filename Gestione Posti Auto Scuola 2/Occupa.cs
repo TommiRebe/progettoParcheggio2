@@ -26,7 +26,7 @@ namespace Gestione_Posti_Auto_Scuola_2
 
         private void frmOccupa_Load(object sender, EventArgs e)
         {
-            foreach(string fila in G.File)
+            foreach (string fila in G.File)
                 cmbFila.Items.Add(fila);
             foreach (int numero in G.Numeri)
                 cmbNumero.Items.Add(numero);
@@ -37,21 +37,38 @@ namespace Gestione_Posti_Auto_Scuola_2
             StreamReader srd = new StreamReader(G.path + G.name);
             string[] records;
             string vecchio = "";
+            string[] vecc;
 
             vecchio = G.record;
+            vecc= Str.Tokenizer(G.record, ' ');
 
             while (!srd.EndOfStream)
             {
                 records = Str.Tokenizer(srd.ReadLine(), ' ');
 
-                if (records.Length == 2)
+                if (records[0] == vecc[0] && records[1] == vecc[1])
                 {
-                    G.record = G.record + ' ' + cmbFila.SelectedItem + cmbNumero.SelectedItem;
-                    Files.ModificaRecord(G.path, G.name, vecchio, G.record);
+                    G.record = records[0] + records[1] + ' ' + cmbFila.SelectedItem + cmbNumero.SelectedItem;
+                    Files.CancellaRecord(G.path, G.name, vecchio);
+                    Files.InserisciRecord(G.path, G.name, G.record);
+
+                    frmMain frmMain = new frmMain();
+                    frmMain.Show();
+                    this.Hide();
                 }
+                
+                
             }
 
-            
+            srd.Close();
+
+        }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            frmMain frmMain = new frmMain();
+            frmMain.Show();
+            this.Hide();
         }
     }
 }
