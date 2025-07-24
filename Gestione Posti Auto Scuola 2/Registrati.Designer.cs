@@ -43,23 +43,21 @@
             // btnRegistrati
             // 
             btnRegistrati.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnRegistrati.Location = new Point(178, 335);
-            btnRegistrati.Margin = new Padding(3, 2, 3, 2);
+            btnRegistrati.Location = new Point(203, 447);
             btnRegistrati.Name = "btnRegistrati";
-            btnRegistrati.Size = new Size(314, 36);
+            btnRegistrati.Size = new Size(359, 54);
             btnRegistrati.TabIndex = 7;
-            btnRegistrati.Text = "REGISTRATI";
+            btnRegistrati.Text = "Registrati";
             btnRegistrati.UseVisualStyleBackColor = true;
             btnRegistrati.Click += btnRegistrati_Click;
             // 
             // txtPass
             // 
             txtPass.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtPass.Location = new Point(178, 273);
-            txtPass.Margin = new Padding(3, 2, 3, 2);
+            txtPass.Location = new Point(203, 364);
             txtPass.Multiline = true;
             txtPass.Name = "txtPass";
-            txtPass.Size = new Size(314, 37);
+            txtPass.Size = new Size(358, 48);
             txtPass.TabIndex = 6;
             txtPass.Text = "Password";
             txtPass.TextAlign = HorizontalAlignment.Center;
@@ -67,59 +65,54 @@
             // txtUser
             // 
             txtUser.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtUser.Location = new Point(178, 220);
-            txtUser.Margin = new Padding(3, 2, 3, 2);
+            txtUser.Location = new Point(203, 293);
             txtUser.Multiline = true;
             txtUser.Name = "txtUser";
-            txtUser.Size = new Size(314, 37);
+            txtUser.Size = new Size(358, 48);
             txtUser.TabIndex = 5;
             txtUser.Text = "Username";
             txtUser.TextAlign = HorizontalAlignment.Center;
             // 
             // pctPass
             // 
-            pctPass.Location = new Point(133, 273);
-            pctPass.Margin = new Padding(3, 2, 3, 2);
+            pctPass.Location = new Point(152, 364);
             pctPass.Name = "pctPass";
-            pctPass.Size = new Size(49, 36);
+            pctPass.Size = new Size(56, 48);
             pctPass.TabIndex = 9;
             pctPass.TabStop = false;
             // 
             // pctUser
             // 
-            pctUser.Location = new Point(133, 220);
-            pctUser.Margin = new Padding(3, 2, 3, 2);
+            pctUser.Location = new Point(152, 293);
             pctUser.Name = "pctUser";
-            pctUser.Size = new Size(49, 36);
+            pctUser.Size = new Size(56, 48);
             pctUser.TabIndex = 8;
             pctUser.TabStop = false;
             // 
             // pct1
             // 
-            pct1.Location = new Point(178, 32);
-            pct1.Margin = new Padding(3, 2, 3, 2);
+            pct1.Location = new Point(203, 43);
             pct1.Name = "pct1";
-            pct1.Size = new Size(273, 160);
+            pct1.Size = new Size(312, 213);
             pct1.TabIndex = 10;
             pct1.TabStop = false;
             // 
             // btnRitorna
             // 
             btnRitorna.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnRitorna.Location = new Point(178, 399);
-            btnRitorna.Margin = new Padding(3, 2, 3, 2);
+            btnRitorna.Location = new Point(203, 540);
             btnRitorna.Name = "btnRitorna";
-            btnRitorna.Size = new Size(314, 36);
+            btnRitorna.Size = new Size(359, 54);
             btnRitorna.TabIndex = 11;
-            btnRitorna.Text = "TORNA AL LOGIN";
+            btnRitorna.Text = "Torna al login";
             btnRitorna.UseVisualStyleBackColor = true;
             btnRitorna.Click += btnRitorna_Click;
             // 
             // Registrati
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(713, 500);
+            ClientSize = new Size(815, 667);
             Controls.Add(btnRitorna);
             Controls.Add(pct1);
             Controls.Add(pctPass);
@@ -127,7 +120,6 @@
             Controls.Add(btnRegistrati);
             Controls.Add(txtPass);
             Controls.Add(txtUser);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "Registrati";
             Text = "Registrati";
             Load += Registrati_Load;

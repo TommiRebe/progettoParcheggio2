@@ -49,6 +49,7 @@ namespace Gestione_Posti_Auto_Scuola_2
                             default:
                                 break;
                         }
+
                         G.CercaUtente(G.namePosti, G.pathPosti, post);
                     }
                 

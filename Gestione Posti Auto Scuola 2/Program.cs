@@ -11,7 +11,7 @@ namespace Gestione_Posti_Auto_Scuola_2
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new frmMain());
+            Application.Run(new frmLogIn());
         }
     }
 }
