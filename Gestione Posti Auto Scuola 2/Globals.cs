@@ -13,6 +13,8 @@ namespace Gestione_Posti_Auto_Scuola_2
         public static string record = "";
         public static string[] File = new string[] { "A", "B", "C", "D" };
         public static int[] Numeri = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+        public static int costoFisso = 1;
+        public static List<Persona> utenti = new List<Persona>();
 
         public static void CreaFile(string p, string n)
         {
@@ -24,7 +26,7 @@ namespace Gestione_Posti_Auto_Scuola_2
             Files.InserisciRecord(p, n, r);
         }
 
-        public static bool CercaUtente(string n, string p, string user, string pass)
+        public static bool CercaUtenteFile(string n, string p, string user, string pass)
         {
             string record = "";
             char sep = ' ';

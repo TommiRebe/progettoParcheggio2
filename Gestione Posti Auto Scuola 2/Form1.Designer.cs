@@ -28,21 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             lblTitolo = new Label();
             rdbGrafico = new RadioButton();
             rdbOccupa = new RadioButton();
             rdbLibera = new RadioButton();
             btnEsegui = new Button();
             btnLogOut = new Button();
+            tmrTempo = new System.Windows.Forms.Timer(components);
             SuspendLayout();
             // 
             // lblTitolo
             // 
             lblTitolo.AutoSize = true;
             lblTitolo.Font = new Font("Segoe UI", 27.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblTitolo.Location = new Point(151, 9);
+            lblTitolo.Location = new Point(132, 7);
             lblTitolo.Name = "lblTitolo";
-            lblTitolo.Size = new Size(461, 62);
+            lblTitolo.Size = new Size(362, 50);
             lblTitolo.TabIndex = 0;
             lblTitolo.Text = "Gestione parcheggio";
             // 
@@ -50,10 +52,9 @@
             // 
             rdbGrafico.AutoSize = true;
             rdbGrafico.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            rdbGrafico.Location = new Point(151, 108);
-            rdbGrafico.Margin = new Padding(3, 4, 3, 4);
+            rdbGrafico.Location = new Point(132, 81);
             rdbGrafico.Name = "rdbGrafico";
-            rdbGrafico.Size = new Size(223, 35);
+            rdbGrafico.Size = new Size(187, 29);
             rdbGrafico.TabIndex = 1;
             rdbGrafico.TabStop = true;
             rdbGrafico.Text = "Grafico occupanza";
@@ -63,10 +64,9 @@
             // 
             rdbOccupa.AutoSize = true;
             rdbOccupa.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            rdbOccupa.Location = new Point(151, 164);
-            rdbOccupa.Margin = new Padding(3, 4, 3, 4);
+            rdbOccupa.Location = new Point(132, 123);
             rdbOccupa.Name = "rdbOccupa";
-            rdbOccupa.Size = new Size(209, 35);
+            rdbOccupa.Size = new Size(173, 29);
             rdbOccupa.TabIndex = 2;
             rdbOccupa.TabStop = true;
             rdbOccupa.Text = "Occupa un posto";
@@ -76,10 +76,9 @@
             // 
             rdbLibera.AutoSize = true;
             rdbLibera.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            rdbLibera.Location = new Point(151, 222);
-            rdbLibera.Margin = new Padding(3, 4, 3, 4);
+            rdbLibera.Location = new Point(132, 166);
             rdbLibera.Name = "rdbLibera";
-            rdbLibera.Size = new Size(194, 35);
+            rdbLibera.Size = new Size(161, 29);
             rdbLibera.TabIndex = 3;
             rdbLibera.TabStop = true;
             rdbLibera.Text = "Libera un posto";
@@ -88,10 +87,9 @@
             // btnEsegui
             // 
             btnEsegui.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnEsegui.Location = new Point(151, 304);
-            btnEsegui.Margin = new Padding(3, 4, 3, 4);
+            btnEsegui.Location = new Point(132, 228);
             btnEsegui.Name = "btnEsegui";
-            btnEsegui.Size = new Size(461, 56);
+            btnEsegui.Size = new Size(403, 42);
             btnEsegui.TabIndex = 4;
             btnEsegui.Text = "Esegui opzione";
             btnEsegui.UseVisualStyleBackColor = true;
@@ -100,10 +98,9 @@
             // btnLogOut
             // 
             btnLogOut.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnLogOut.Location = new Point(151, 368);
-            btnLogOut.Margin = new Padding(3, 4, 3, 4);
+            btnLogOut.Location = new Point(132, 276);
             btnLogOut.Name = "btnLogOut";
-            btnLogOut.Size = new Size(461, 56);
+            btnLogOut.Size = new Size(403, 42);
             btnLogOut.TabIndex = 5;
             btnLogOut.Text = "Log out";
             btnLogOut.UseVisualStyleBackColor = true;
@@ -111,16 +108,15 @@
             // 
             // frmMain
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(753, 482);
+            ClientSize = new Size(659, 362);
             Controls.Add(btnLogOut);
             Controls.Add(btnEsegui);
             Controls.Add(rdbLibera);
             Controls.Add(rdbOccupa);
             Controls.Add(rdbGrafico);
             Controls.Add(lblTitolo);
-            Margin = new Padding(3, 4, 3, 4);
             Name = "frmMain";
             Text = "Gestione parcheggio";
             Load += frmMain_Load;
@@ -136,5 +132,6 @@
         private RadioButton rdbLibera;
         private Button btnEsegui;
         private Button btnLogOut;
+        private System.Windows.Forms.Timer tmrTempo;
     }
 }

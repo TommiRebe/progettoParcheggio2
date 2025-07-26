@@ -1,9 +1,13 @@
 ﻿namespace Gestione_Posti_Auto_Scuola_2
 {
-    abstract class Persona
+    class Persona
     {
-        protected string user;
-        protected string password;
+        private string user;
+        private string password;
+        private string posto;
+        private bool personale;
+        private bool studente;
+
 
         public string USER
         {
@@ -16,12 +20,43 @@
             set { password = value; }
         }
 
-        public Persona() { user = ""; password = ""; }
-        public Persona(string nm, string cg)
+        public string POSTO
+        {
+            get { return posto; }
+            set { posto = value; }
+        }
+
+        public bool PERSONALE
+        {
+            get { return personale; }
+            set { personale = value; }
+        }
+        public bool STUDENTE
+        {
+            get { return studente; }
+            set { studente = value; }
+        }
+
+        public Persona() { user = ""; password = ""; posto = ""; personale = false; studente = false; }
+        public Persona(string nm, string cg, string p, bool pe, bool s)
         {
             user = nm;
             password = cg;
+            posto = p;
+            personale = pe;
+            studente = s;
         }
-        ~Persona() {;}
+        ~Persona() {; }
+
+        public double CostoParcheggio(int tempo)
+        {
+            if (personale == true)
+                return 0.0;
+            
+            if(studente == true)
+                return 1 + 0.5 * tempo;
+
+            return 0.0;
+        }
     }
 }
