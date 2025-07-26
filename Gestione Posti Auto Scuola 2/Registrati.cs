@@ -46,11 +46,32 @@ namespace Gestione_Posti_Auto_Scuola_2
 
         private void btnRegistrati_Click(object sender, EventArgs e)
         {
-            G.record = txtUser.Text + ' ' + txtPass.Text + " ;";
+            bool esiste = false;
+            Persona etichetta = new Persona();
+            G.record = txtUser.Text + ' ' + txtPass.Text;
 
-            G.AggiungiUtente(G.path, G.name, G.record);
-            MessageBox.Show("Utente registrato correttamente!");
-            
+            if (!G.CercaUtenteFile(G.name, G.path, txtUser.Text, txtPass.Text))
+                G.AggiungiUtente(G.name, G.path, G.record);
+
+            if (G.utenti!=null)
+                for (int i = 0; i < G.utenti.Count; i++)
+                    if (txtUser.Text == G.utenti[i].USER && txtPass.Text == G.utenti[i].PASSWORD)
+                        esiste = true;
+
+            if (!esiste)
+            {
+                etichetta.USER = txtUser.Text;
+                etichetta.PASSWORD = txtPass.Text;
+                etichetta.PERSONALE = rdbPersonale.Checked;
+                etichetta.STUDENTE = rdbStudente.Checked;
+
+                G.utenti.Add(etichetta);
+            }
+
+            frmLogIn login = new frmLogIn();
+            login.Show();
+            this.Hide();
+
         }
     }
 }

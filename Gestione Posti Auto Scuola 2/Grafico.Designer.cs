@@ -58,6 +58,7 @@
             btnPostoA1.Size = new Size(75, 75);
             btnPostoA1.TabIndex = 0;
             btnPostoA1.UseVisualStyleBackColor = true;
+            btnPostoA1.Paint += btnPostoA1_Paint;
             // 
             // btnPostoA5
             // 

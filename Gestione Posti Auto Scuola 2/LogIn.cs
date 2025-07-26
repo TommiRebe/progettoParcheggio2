@@ -50,7 +50,7 @@ namespace Gestione_Posti_Auto_Scuola_2
         {
             frmMain frmMain = new frmMain();
 
-            if (G.CercaUtente(G.name, G.path, txtUser.Text, txtPass.Text) == true)
+            if (G.CercaUtenteFile(G.name, G.path, txtUser.Text, txtPass.Text) == true)
             {
                 MessageBox.Show("Login effettuato con successo!");
                 frmMain.Show();

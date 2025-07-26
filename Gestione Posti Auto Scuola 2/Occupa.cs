@@ -34,33 +34,7 @@ namespace Gestione_Posti_Auto_Scuola_2
 
         private void btnOccupa_Click(object sender, EventArgs e)
         {
-            StreamReader srd = new StreamReader(G.path + G.name);
-            string[] records;
-            string vecchio = "";
-            string[] vecc;
-
-            vecchio = G.record;
-            vecc= Str.Tokenizer(G.record, ' ');
-
-            while (!srd.EndOfStream)
-            {
-                records = Str.Tokenizer(srd.ReadLine(), ' ');
-
-                if (records[0] == vecc[0] && records[1] == vecc[1])
-                {
-                    G.record = records[0] + records[1] + ' ' + cmbFila.SelectedItem + cmbNumero.SelectedItem;
-                    Files.CancellaRecord(G.path, G.name, vecchio);
-                    Files.InserisciRecord(G.path, G.name, G.record);
-
-                    frmMain frmMain = new frmMain();
-                    frmMain.Show();
-                    this.Hide();
-                }
-                
-                
-            }
-
-            srd.Close();
+            
 
         }
 
