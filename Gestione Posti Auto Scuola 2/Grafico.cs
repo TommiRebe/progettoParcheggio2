@@ -23,7 +23,26 @@ namespace Gestione_Posti_Auto_Scuola_2
 
         private void frmGrafico_Load(object sender, EventArgs e)
         {
-
+            btnPostoA1.BackColor = Color.Green;
+            btnPostoA2.BackColor = Color.Green;
+            btnPostoA3.BackColor = Color.Green;
+            btnPostoA4.BackColor = Color.Green;
+            btnPostoA5.BackColor = Color.Green;
+            btnPostoB1.BackColor = Color.Green;
+            btnPostoB2.BackColor = Color.Green;
+            btnPostoB3.BackColor = Color.Green;
+            btnPostoB4.BackColor = Color.Green;
+            btnPostoB5.BackColor = Color.Green;
+            btnPostoC1.BackColor = Color.Green;
+            btnPostoC2.BackColor = Color.Green;
+            btnPostoC3.BackColor = Color.Green;
+            btnPostoC4.BackColor = Color.Green;
+            btnPostoC5.BackColor = Color.Green;
+            btnPostoD1.BackColor = Color.Green;
+            btnPostoD2.BackColor = Color.Green;
+            btnPostoD3.BackColor = Color.Green;
+            btnPostoD4.BackColor = Color.Green;
+            btnPostoD5.BackColor = Color.Green;
 
         }
 

@@ -9,10 +9,11 @@ namespace Gestione_Posti_Auto_Scuola_2
         public static string path = @"./../../../../../";
         public static string name = "Credenziali.txt";
         public static bool filecreato = false;
+        public static int index = 0;
         public static int id = 1;
         public static string record = "";
         public static string[] File = new string[] { "A", "B", "C", "D" };
-        public static int[] Numeri = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+        public static int[] Numeri = new int[] { 1, 2, 3, 4, 5 };
         public static int costoFisso = 1;
         public static List<Persona> utenti = new List<Persona>();
 
@@ -26,24 +27,32 @@ namespace Gestione_Posti_Auto_Scuola_2
             Files.InserisciRecord(p, n, r);
         }
 
-        public static bool CercaUtenteFile(string n, string p, string user, string pass)
+        public static bool CercaUtenteFile(string p, string n, string user, string pass)
         {
             string record = "";
             char sep = ' ';
             string[] records;
 
-            using (StreamReader srd = new StreamReader(p + n))
+            try
             {
-                while (!srd.EndOfStream)
+                using (StreamReader srd = new StreamReader(p + n))
                 {
-                    record = srd.ReadLine();
-                    records = Str.Tokenizer(record, sep);
+                    while (!srd.EndOfStream)
+                    {
+                        record = srd.ReadLine();
+                        records = Str.Tokenizer(record, sep);
 
-                    if (records != null)
+                        if (records != null)
 
-                        if (records[0] == user && records[1] == pass)
-                            return true;
+                            if (records[0] == user && records[1] == pass)
+                                return true;
+                    }
                 }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Errore nella lettura del file: " + ex.Message);
+                return false;
             }
 
             return false;

@@ -25,7 +25,7 @@ namespace Gestione_Posti_Auto_Scuola_2
 
         private void frmLogIn_Load(object sender, EventArgs e)
         {
-            G.CreaFile(G.path, G.name);
+            //G.CreaFile(G.path, G.name);
             this.BackColor = Color.LightBlue;
             lblregistrati.Text = "Non hai ancora un account?\nRegistrati!";
             pct1.Image = Image.FromFile("C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Image\\fotologin.png");
@@ -50,7 +50,7 @@ namespace Gestione_Posti_Auto_Scuola_2
         {
             frmMain frmMain = new frmMain();
 
-            if (G.CercaUtenteFile(G.name, G.path, txtUser.Text, txtPass.Text) == true)
+            if (G.CercaUtenteFile(G.path, G.name, txtUser.Text, txtPass.Text) == true)
             {
                 MessageBox.Show("Login effettuato con successo!");
                 frmMain.Show();

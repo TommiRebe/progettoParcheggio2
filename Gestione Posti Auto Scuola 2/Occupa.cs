@@ -30,12 +30,20 @@ namespace Gestione_Posti_Auto_Scuola_2
                 cmbFila.Items.Add(fila);
             foreach (int numero in G.Numeri)
                 cmbNumero.Items.Add(numero);
+
+            imgOccupa.Image = Image.FromFile("C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Image\\fotoparcheggio.png");
+            imgOccupa.SizeMode = PictureBoxSizeMode.Zoom;
+            btnOccupa.BackColor = Color.FromArgb(0, 123, 255);
+            btnOccupa.ForeColor = Color.White;
+            btnHome.BackColor = Color.FromArgb(0, 123, 255);
+            btnHome.ForeColor = Color.White;
         }
 
         private void btnOccupa_Click(object sender, EventArgs e)
         {
-            
-
+            string posto = cmbFila.Text + cmbNumero.Text;
+            G.utenti[G.index - 1].POSTO = posto;
+            MessageBox.Show("Posto Occupato!");
         }
 
         private void btnHome_Click(object sender, EventArgs e)

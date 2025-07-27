@@ -4,7 +4,7 @@
     {
         private string user;
         private string password;
-        private string posto;
+        private string? posto; //valore che inseriamo dopo nell'occupa
         private bool personale;
         private bool studente;
 
@@ -38,6 +38,13 @@
         }
 
         public Persona() { user = ""; password = ""; posto = ""; personale = false; studente = false; }
+        public Persona(string nm, string cg, bool pe, bool s)
+        {
+            user = nm;
+            password = cg;
+            personale = pe;
+            studente = s;
+        }
         public Persona(string nm, string cg, string p, bool pe, bool s)
         {
             user = nm;

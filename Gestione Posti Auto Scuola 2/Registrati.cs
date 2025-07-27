@@ -47,11 +47,10 @@ namespace Gestione_Posti_Auto_Scuola_2
         private void btnRegistrati_Click(object sender, EventArgs e)
         {
             bool esiste = false;
-            Persona etichetta = new Persona();
             G.record = txtUser.Text + ' ' + txtPass.Text;
 
-            if (!G.CercaUtenteFile(G.name, G.path, txtUser.Text, txtPass.Text))
-                G.AggiungiUtente(G.name, G.path, G.record);
+            if (!G.CercaUtenteFile(G.path, G.name, txtUser.Text, txtPass.Text))
+                G.AggiungiUtente(G.path, G.name, G.record);
 
             if (G.utenti!=null)
                 for (int i = 0; i < G.utenti.Count; i++)
@@ -60,12 +59,9 @@ namespace Gestione_Posti_Auto_Scuola_2
 
             if (!esiste)
             {
-                etichetta.USER = txtUser.Text;
-                etichetta.PASSWORD = txtPass.Text;
-                etichetta.PERSONALE = rdbPersonale.Checked;
-                etichetta.STUDENTE = rdbStudente.Checked;
-
+                Persona etichetta = new Persona(txtUser.Text, txtPass.Text, rdbPersonale.Checked, rdbStudente.Checked);
                 G.utenti.Add(etichetta);
+                G.index++;
             }
 
             frmLogIn login = new frmLogIn();
