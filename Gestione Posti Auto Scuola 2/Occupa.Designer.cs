@@ -40,9 +40,11 @@
             // 
             // btnOccupa
             // 
-            btnOccupa.Location = new Point(50, 305);
+            btnOccupa.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnOccupa.Location = new Point(57, 407);
+            btnOccupa.Margin = new Padding(3, 4, 3, 4);
             btnOccupa.Name = "btnOccupa";
-            btnOccupa.Size = new Size(286, 44);
+            btnOccupa.Size = new Size(327, 59);
             btnOccupa.TabIndex = 0;
             btnOccupa.Text = "Occupa";
             btnOccupa.UseVisualStyleBackColor = true;
@@ -50,53 +52,60 @@
             // 
             // cmbFila
             // 
+            cmbFila.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             cmbFila.FormattingEnabled = true;
-            cmbFila.Location = new Point(131, 202);
+            cmbFila.Location = new Point(150, 269);
+            cmbFila.Margin = new Padding(3, 4, 3, 4);
             cmbFila.Name = "cmbFila";
-            cmbFila.Size = new Size(205, 23);
+            cmbFila.Size = new Size(234, 36);
             cmbFila.TabIndex = 1;
             // 
             // cmbNumero
             // 
+            cmbNumero.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             cmbNumero.FormattingEnabled = true;
-            cmbNumero.Location = new Point(131, 249);
+            cmbNumero.Location = new Point(150, 332);
+            cmbNumero.Margin = new Padding(3, 4, 3, 4);
             cmbNumero.Name = "cmbNumero";
-            cmbNumero.Size = new Size(205, 23);
+            cmbNumero.Size = new Size(234, 36);
             cmbNumero.TabIndex = 2;
             // 
             // imgOccupa
             // 
-            imgOccupa.Location = new Point(50, 12);
+            imgOccupa.Location = new Point(57, 16);
+            imgOccupa.Margin = new Padding(3, 4, 3, 4);
             imgOccupa.Name = "imgOccupa";
-            imgOccupa.Size = new Size(286, 153);
+            imgOccupa.Size = new Size(327, 204);
             imgOccupa.TabIndex = 3;
             imgOccupa.TabStop = false;
             // 
             // lblFila
             // 
             lblFila.AutoSize = true;
-            lblFila.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblFila.Location = new Point(50, 202);
+            lblFila.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblFila.Location = new Point(57, 269);
             lblFila.Name = "lblFila";
-            lblFila.Size = new Size(41, 25);
+            lblFila.Size = new Size(59, 38);
             lblFila.TabIndex = 4;
             lblFila.Text = "Fila";
             // 
             // lblPosti
             // 
             lblPosti.AutoSize = true;
-            lblPosti.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblPosti.Location = new Point(50, 244);
+            lblPosti.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblPosti.Location = new Point(57, 325);
             lblPosti.Name = "lblPosti";
-            lblPosti.Size = new Size(58, 25);
+            lblPosti.Size = new Size(85, 38);
             lblPosti.TabIndex = 5;
             lblPosti.Text = "Posto";
             // 
             // btnHome
             // 
-            btnHome.Location = new Point(50, 355);
+            btnHome.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnHome.Location = new Point(57, 473);
+            btnHome.Margin = new Padding(3, 4, 3, 4);
             btnHome.Name = "btnHome";
-            btnHome.Size = new Size(286, 44);
+            btnHome.Size = new Size(327, 59);
             btnHome.TabIndex = 6;
             btnHome.Text = "Home";
             btnHome.UseVisualStyleBackColor = true;
@@ -104,9 +113,9 @@
             // 
             // frmOccupa
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(384, 405);
+            ClientSize = new Size(439, 540);
             Controls.Add(btnHome);
             Controls.Add(lblPosti);
             Controls.Add(lblFila);
@@ -114,6 +123,7 @@
             Controls.Add(cmbNumero);
             Controls.Add(cmbFila);
             Controls.Add(btnOccupa);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "frmOccupa";
             Text = "Occupa";
             Load += frmOccupa_Load;
