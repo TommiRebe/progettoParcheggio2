@@ -16,6 +16,7 @@ namespace Gestione_Posti_Auto_Scuola_2
         public static int[] Numeri = new int[] { 1, 2, 3, 4, 5 };
         public static int costoFisso = 1;
         public static List<Persona> utenti = new List<Persona>();
+        public static string postoliberato = "";//numero del posto liberato
 
         public static void CreaFile(string p, string n)
         {

@@ -37,6 +37,7 @@ namespace Gestione_Posti_Auto_Scuola_2
             btnOccupa.ForeColor = Color.White;
             btnHome.BackColor = Color.FromArgb(0, 123, 255);
             btnHome.ForeColor = Color.White;
+
         }
 
         private void btnOccupa_Click(object sender, EventArgs e)
