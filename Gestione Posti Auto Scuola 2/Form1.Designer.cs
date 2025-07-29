@@ -36,6 +36,7 @@
             btnEsegui = new Button();
             btnLogOut = new Button();
             tmrTempo = new System.Windows.Forms.Timer(components);
+            rdbCalcolaTotale = new RadioButton();
             SuspendLayout();
             // 
             // lblTitolo
@@ -87,7 +88,7 @@
             // btnEsegui
             // 
             btnEsegui.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnEsegui.Location = new Point(132, 228);
+            btnEsegui.Location = new Point(132, 260);
             btnEsegui.Name = "btnEsegui";
             btnEsegui.Size = new Size(403, 42);
             btnEsegui.TabIndex = 4;
@@ -98,7 +99,7 @@
             // btnLogOut
             // 
             btnLogOut.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnLogOut.Location = new Point(132, 276);
+            btnLogOut.Location = new Point(132, 308);
             btnLogOut.Name = "btnLogOut";
             btnLogOut.Size = new Size(403, 42);
             btnLogOut.TabIndex = 5;
@@ -106,11 +107,28 @@
             btnLogOut.UseVisualStyleBackColor = true;
             btnLogOut.Click += btnLogOut_Click;
             // 
+            // tmrTempo
+            // 
+            tmrTempo.Tick += tmrTempo_Tick;
+            // 
+            // rdbCalcolaTotale
+            // 
+            rdbCalcolaTotale.AutoSize = true;
+            rdbCalcolaTotale.Font = new Font("Segoe UI", 13.8F);
+            rdbCalcolaTotale.Location = new Point(132, 213);
+            rdbCalcolaTotale.Name = "rdbCalcolaTotale";
+            rdbCalcolaTotale.Size = new Size(145, 29);
+            rdbCalcolaTotale.TabIndex = 6;
+            rdbCalcolaTotale.TabStop = true;
+            rdbCalcolaTotale.Text = "Calcola totale";
+            rdbCalcolaTotale.UseVisualStyleBackColor = true;
+            // 
             // frmMain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(659, 362);
+            Controls.Add(rdbCalcolaTotale);
             Controls.Add(btnLogOut);
             Controls.Add(btnEsegui);
             Controls.Add(rdbLibera);
@@ -133,5 +151,6 @@
         private Button btnEsegui;
         private Button btnLogOut;
         private System.Windows.Forms.Timer tmrTempo;
+        private RadioButton rdbCalcolaTotale;
     }
 }

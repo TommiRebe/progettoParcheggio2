@@ -14,10 +14,10 @@ namespace Gestione_Posti_Auto_Scuola_2
     {
         const string TIT = "Gestione parcheggio";
 
-        
+
         public frmMain()
         {
-            InitializeComponent();   
+            InitializeComponent();
 
             lblTitolo.Text = TIT;
         }
@@ -29,6 +29,9 @@ namespace Gestione_Posti_Auto_Scuola_2
             btnEsegui.ForeColor = Color.White;
             btnLogOut.BackColor = Color.FromArgb(0, 123, 255);
             btnLogOut.ForeColor = Color.White;
+
+            tmrTempo.Interval = 1000;
+            tmrTempo.Start();
         }
 
         private void btnEsegui_Click(object sender, EventArgs e)
@@ -36,14 +39,18 @@ namespace Gestione_Posti_Auto_Scuola_2
             frmGrafico formG = new frmGrafico();
             frmLibera formL = new frmLibera();
             frmOccupa formO = new frmOccupa();
+            frmScontrino formS = new frmScontrino();
 
-            if (rdbGrafico.Checked == true)
+
+            if (rdbGrafico.Checked)
                 formG.Show();
-            if (rdbLibera.Checked == true)
+            if (rdbLibera.Checked)
                 formL.Show();
-            if (rdbOccupa.Checked == true)
+            if (rdbOccupa.Checked)
                 formO.Show();
-            if (rdbOccupa.Checked == true || rdbLibera.Checked == true || rdbGrafico.Checked == true)
+            if (rdbCalcolaTotale.Checked)
+                formS.Show();
+            if (rdbOccupa.Checked || rdbLibera.Checked || rdbGrafico.Checked || rdbCalcolaTotale.Checked)
                 this.Hide();
 
         }
@@ -53,6 +60,11 @@ namespace Gestione_Posti_Auto_Scuola_2
             frmLogIn formLog = new frmLogIn();
             formLog.Show();
             this.Hide();
+        }
+
+        private void tmrTempo_Tick(object sender, EventArgs e)
+        {
+            G.temp++;
         }
     }
 }

@@ -31,7 +31,7 @@ namespace Gestione_Posti_Auto_Scuola_2
             foreach (int numero in G.Numeri)
                 cmbNumero.Items.Add(numero);
 
-            imgOccupa.Image = Image.FromFile("C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Image\\fotoparcheggio.png");
+            //imgOccupa.Image = Image.FromFile("C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Image\\fotoparcheggio.png");
             imgOccupa.SizeMode = PictureBoxSizeMode.Zoom;
             btnOccupa.BackColor = Color.FromArgb(0, 123, 255);
             btnOccupa.ForeColor = Color.White;
@@ -43,8 +43,23 @@ namespace Gestione_Posti_Auto_Scuola_2
         private void btnOccupa_Click(object sender, EventArgs e)
         {
             string posto = cmbFila.Text + cmbNumero.Text;
-            G.utenti[G.index - 1].POSTO = posto;
-            MessageBox.Show("Posto Occupato!");
+
+            if (G.CercaUtenteList(G.record) >= 0 && G.CercaPosto(posto)==true)
+            {
+                G.utenti[G.CercaUtenteList(G.record)].POSTO = posto;
+                MessageBox.Show("Posto Occupato!");
+            }
+            else if (!G.CercaPosto(posto))
+                MessageBox.Show("Posto già Occupato!");
+
+            if (G.CercaUtenteList(G.record) == -1)
+                MessageBox.Show("errore nel login!");
+
+            frmMain frmMain = new frmMain();
+            frmMain.Show();
+            this.Hide();
+
+
         }
 
         private void btnHome_Click(object sender, EventArgs e)

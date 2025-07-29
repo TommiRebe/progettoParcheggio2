@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Lib;
+using Microsoft.VisualBasic.ApplicationServices;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -39,16 +41,41 @@ namespace Gestione_Posti_Auto_Scuola_2
             btnLogin.ForeColor = Color.White;
             btnRegistrati.BackColor = Color.FromArgb(0, 123, 255);
             btnRegistrati.ForeColor = Color.White;
+            btnTermina.BackColor = Color.FromArgb(0, 123, 255);
+            btnTermina.ForeColor = Color.White;
             txtUser.ForeColor = ColorTranslator.FromHtml("#1E90FF");
             txtUser.BackColor = ColorTranslator.FromHtml("#E6F2FF");
             txtPass.BackColor = ColorTranslator.FromHtml("#E6F2FF");
             txtPass.ForeColor = ColorTranslator.FromHtml("#1E90FF");
 
+            string s = "";
+            string[] a;
+            int i = 0;
+            Persona p = new Persona();
+            StreamReader srd = new StreamReader(G.path + G.name);
+
+            while (!srd.EndOfStream)
+            {
+                s = srd.ReadLine();
+                a = Str.Tokenizer(s, ' ');
+
+                p.USER = a[0];
+                p.PASSWORD = a[1];
+                p.PERSONALE = Convert.ToBoolean(a[2]);
+                p.STUDENTE = Convert.ToBoolean(a[3]);
+
+                G.utenti.Add(p);
+
+                i++;
+            }
+
+            srd.Close();
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
             frmMain frmMain = new frmMain();
+            G.record = txtUser.Text + ' ' + txtPass.Text;
 
             if (G.CercaUtenteFile(G.path, G.name, txtUser.Text, txtPass.Text) == true)
             {
@@ -73,6 +100,11 @@ namespace Gestione_Posti_Auto_Scuola_2
             Registrati registrati = new Registrati();
             registrati.Show();
             this.Hide();
+        }
+
+        private void btnTermina_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

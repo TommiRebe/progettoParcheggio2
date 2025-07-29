@@ -17,6 +17,7 @@ namespace Gestione_Posti_Auto_Scuola_2
         public static int costoFisso = 1;
         public static List<Persona> utenti = new List<Persona>();
         public static string postoliberato = "";//numero del posto liberato
+        public static int temp = 0;
 
         public static void CreaFile(string p, string n)
         {
@@ -59,26 +60,26 @@ namespace Gestione_Posti_Auto_Scuola_2
             return false;
         }
 
-        public static bool CercaPosto(string n, string p, string posto)
+        // metodo che consente di cercare un posto
+        // true: non occupato
+        // false: occupato
+        public static bool CercaPosto(string posto)
         {
-            string record = "";
-            char sep = ' ';
-            string[] records;
+            for (int i = 0; i < utenti.Count; i++)
+                if (utenti[i].POSTO==posto)
+                    return false;
 
-            using (StreamReader srd = new StreamReader(p + n))
-            {
-                while (!srd.EndOfStream)
-                {
-                    record = srd.ReadLine();
-                    records = Str.Tokenizer(record, sep);
+            return true;
+        }
 
-                    if (records != null)
-                        if (records[2] == posto)
-                            return true;
-                }
-            }
+        public static int CercaUtenteList(string utente)
+        {
+            for (int i = 0; i < utenti.Count; i++)
+                if (utenti[i].USER + ' ' + utenti[i].PASSWORD == utente)
+                    return i;
 
-            return false;
+            return -1;
+            
         }
     }
 }
