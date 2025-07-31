@@ -186,8 +186,8 @@ namespace Gestione_Posti_Auto_Scuola_2
 
         private void btnTornaHome_Click(object sender, EventArgs e)
         {
-            frmMain frmMain = new frmMain();
-            frmMain.Show();
+           // frmMain frmMain = new frmMain();
+            //frmMain.Show();
             this.Hide();
         }
 

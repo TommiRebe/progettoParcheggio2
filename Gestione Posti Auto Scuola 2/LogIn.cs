@@ -27,7 +27,11 @@ namespace Gestione_Posti_Auto_Scuola_2
 
         private void frmLogIn_Load(object sender, EventArgs e)
         {
-            //G.CreaFile(G.path, G.name);
+            if(G.filecreato == false)
+            {
+                G.CreaFile(G.path, G.name);
+                G.filecreato = true;
+            }
             this.BackColor = Color.LightBlue;
             lblregistrati.Text = "Non hai ancora un account?\nRegistrati!";
             pct1.Image = Image.FromFile("C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Image\\fotologin.png");
@@ -48,12 +52,13 @@ namespace Gestione_Posti_Auto_Scuola_2
             txtPass.BackColor = ColorTranslator.FromHtml("#E6F2FF");
             txtPass.ForeColor = ColorTranslator.FromHtml("#1E90FF");
 
-            string s = "";
+            /*string s = "";
             string[] a;
             int i = 0;
             Persona p = new Persona();
             StreamReader srd = new StreamReader(G.path + G.name);
 
+            
             while (!srd.EndOfStream)
             {
                 s = srd.ReadLine();
@@ -70,6 +75,7 @@ namespace Gestione_Posti_Auto_Scuola_2
             }
 
             srd.Close();
+            */
         }
 
         private void btnLogin_Click(object sender, EventArgs e)

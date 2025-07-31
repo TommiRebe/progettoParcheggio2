@@ -51,7 +51,7 @@ namespace Gestione_Posti_Auto_Scuola_2
             if (rdbCalcolaTotale.Checked)
                 formS.Show();
             if (rdbOccupa.Checked || rdbLibera.Checked || rdbGrafico.Checked || rdbCalcolaTotale.Checked)
-                this.Hide();
+                this.Close();
 
         }
 
@@ -59,7 +59,7 @@ namespace Gestione_Posti_Auto_Scuola_2
         {
             frmLogIn formLog = new frmLogIn();
             formLog.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void tmrTempo_Tick(object sender, EventArgs e)

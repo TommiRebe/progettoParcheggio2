@@ -31,7 +31,7 @@ namespace Gestione_Posti_Auto_Scuola_2
             foreach (int numero in G.Numeri)
                 cmbNumero.Items.Add(numero);
 
-            //imgOccupa.Image = Image.FromFile("C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Image\\fotoparcheggio.png");
+            imgOccupa.Image = Image.FromFile("C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Image\\fotoparcheggio.png");
             imgOccupa.SizeMode = PictureBoxSizeMode.Zoom;
             btnOccupa.BackColor = Color.FromArgb(0, 123, 255);
             btnOccupa.ForeColor = Color.White;
@@ -54,19 +54,20 @@ namespace Gestione_Posti_Auto_Scuola_2
 
             if (G.CercaUtenteList(G.record) == -1)
                 MessageBox.Show("errore nel login!");
-
+            //Cosi apre la home 2 volte
             frmMain frmMain = new frmMain();
             frmMain.Show();
-            this.Hide();
+            this.Close();
 
 
         }
 
         private void btnHome_Click(object sender, EventArgs e)
         {
-            frmMain frmMain = new frmMain();
-            frmMain.Show();
-            this.Hide();
+            //Cosi apre la home 2 volte
+            //frmMain frmMain = new frmMain();
+            //frmMain.Show();
+            this.Close();
         }
     }
 }
