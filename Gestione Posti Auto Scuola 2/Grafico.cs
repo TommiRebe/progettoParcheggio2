@@ -23,6 +23,8 @@ namespace Gestione_Posti_Auto_Scuola_2
 
         private void frmGrafico_Load(object sender, EventArgs e)
         {
+            btnTornaHome.BackColor = Color.FromArgb(0, 123, 255);
+            btnTornaHome.ForeColor = Color.White;
             btnPostoA1.BackColor = Color.Green;
             btnPostoA2.BackColor = Color.Green;
             btnPostoA3.BackColor = Color.Green;
@@ -44,7 +46,7 @@ namespace Gestione_Posti_Auto_Scuola_2
             btnPostoD4.BackColor = Color.Green;
             btnPostoD5.BackColor = Color.Green;
 
-            foreach(Persona persona in G.utenti)
+            foreach (Persona persona in G.utenti)
             {
                 switch (persona.POSTO)
                 {
@@ -186,12 +188,17 @@ namespace Gestione_Posti_Auto_Scuola_2
 
         private void btnTornaHome_Click(object sender, EventArgs e)
         {
-           // frmMain frmMain = new frmMain();
-            //frmMain.Show();
+            frmMain frmMain = new frmMain();
+            frmMain.Show();
             this.Hide();
         }
 
         private void btnPostoA1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnPostoD1_Click(object sender, EventArgs e)
         {
 
         }
