@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\grafico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|c:\\prova\\progettoparcheggio2\\gestione posti auto scuola 2\\grafico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6ECF35AD-F2B5-4930-BF9F-A7417318E028}|Gestione Posti Auto Scuola 2.csproj|solutionrelative:grafico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -93,8 +93,8 @@
               "Title": "Scontrino.cs",
               "DocumentMoniker": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Scontrino.cs",
               "RelativeDocumentMoniker": "Scontrino.cs",
-              "ToolTip": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Scontrino.cs*",
-              "RelativeToolTip": "Scontrino.cs*",
+              "ToolTip": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Scontrino.cs",
+              "RelativeToolTip": "Scontrino.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-31T09:23:02.756Z",
@@ -106,11 +106,10 @@
               "Title": "Scontrino.cs [Progettazione]",
               "DocumentMoniker": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Scontrino.cs",
               "RelativeDocumentMoniker": "Scontrino.cs",
-              "ToolTip": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Scontrino.cs [Progettazione]*",
-              "RelativeToolTip": "Scontrino.cs [Progettazione]*",
+              "ToolTip": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Scontrino.cs [Progettazione]",
+              "RelativeToolTip": "Scontrino.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T09:09:44.068Z",
-              "EditorCaption": " [Progettazione]"
+              "WhenOpened": "2025-07-31T09:09:44.068Z"
             },
             {
               "$type": "Document",
@@ -122,8 +121,7 @@
               "RelativeToolTip": "Personale Generico.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwAgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T08:22:38.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T08:22:38.276Z"
             },
             {
               "$type": "Document",
@@ -135,8 +133,7 @@
               "RelativeToolTip": "..\\..\\Credenziali.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-07-24T10:10:36.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-24T10:10:36.787Z"
             },
             {
               "$type": "Document",
@@ -174,8 +171,7 @@
               "RelativeToolTip": "Globals.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T09:04:28.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T09:04:28.729Z"
             },
             {
               "$type": "Document",
@@ -187,8 +183,7 @@
               "RelativeToolTip": "Str.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T17:38:31.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T17:38:31.027Z"
             },
             {
               "$type": "Document",
@@ -234,8 +229,8 @@
               "Title": "Grafico.cs",
               "DocumentMoniker": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Grafico.cs",
               "RelativeDocumentMoniker": "Grafico.cs",
-              "ToolTip": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Grafico.cs*",
-              "RelativeToolTip": "Grafico.cs*",
+              "ToolTip": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Grafico.cs",
+              "RelativeToolTip": "Grafico.cs",
               "ViewState": "AgIAALwAAAAAAAAAAAAQwMsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T16:37:54.01Z",
@@ -260,8 +255,8 @@
               "Title": "Grafico.cs [Progettazione]",
               "DocumentMoniker": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Grafico.cs",
               "RelativeDocumentMoniker": "Grafico.cs",
-              "ToolTip": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Grafico.cs [Progettazione]*",
-              "RelativeToolTip": "Grafico.cs [Progettazione]*",
+              "ToolTip": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Grafico.cs [Progettazione]",
+              "RelativeToolTip": "Grafico.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T16:17:03.533Z",
               "EditorCaption": " [Progettazione]"
@@ -286,8 +281,7 @@
               "ToolTip": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\LogIn.cs [Progettazione]",
               "RelativeToolTip": "LogIn.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T08:23:57.765Z",
-              "EditorCaption": " [Progettazione]"
+              "WhenOpened": "2025-07-22T08:23:57.765Z"
             },
             {
               "$type": "Document",
@@ -298,8 +292,7 @@
               "ToolTip": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Registrati.cs [Progettazione]",
               "RelativeToolTip": "Registrati.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T09:17:10.064Z",
-              "EditorCaption": " [Progettazione]"
+              "WhenOpened": "2025-07-21T09:17:10.064Z"
             },
             {
               "$type": "Document",
@@ -310,8 +303,7 @@
               "ToolTip": "C:\\Prova\\progettoParcheggio2\\Gestione Posti Auto Scuola 2\\Occupa.cs [Progettazione]",
               "RelativeToolTip": "Occupa.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T10:56:19.993Z",
-              "EditorCaption": " [Progettazione]"
+              "WhenOpened": "2025-07-23T10:56:19.993Z"
             },
             {
               "$type": "Document",
